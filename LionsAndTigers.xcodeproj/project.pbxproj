@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB323611BB32E76000D918A /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB323601BB32E76000D918A /* LionCub.swift */; settings = {ASSET_TAGS = (); }; };
 		630A71901B9D22D2006F8FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A718F1B9D22D2006F8FC0 /* AppDelegate.swift */; };
 		630A71921B9D22D2006F8FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A71911B9D22D2006F8FC0 /* ViewController.swift */; };
 		630A71951B9D22D2006F8FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630A71931B9D22D2006F8FC0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CB323601BB32E76000D918A /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 		630A718A1B9D22D2006F8FC0 /* LionsAndTigers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		630A718E1B9D22D2006F8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630A718F1B9D22D2006F8FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				630A718F1B9D22D2006F8FC0 /* AppDelegate.swift */,
 				630A71911B9D22D2006F8FC0 /* ViewController.swift */,
+				1CB323601BB32E76000D918A /* LionCub.swift */,
 				630A71AF1B9D27A8006F8FC0 /* Tiger.swift */,
 				630A71931B9D22D2006F8FC0 /* Main.storyboard */,
 				6324F1481BA908450061F11B /* Lion.swift */,
@@ -194,7 +197,8 @@
 		630A71821B9D22D2006F8FC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Mike Craig";
 				TargetAttributes = {
 					630A71891B9D22D2006F8FC0 = {
@@ -261,6 +265,7 @@
 				630A71921B9D22D2006F8FC0 /* ViewController.swift in Sources */,
 				630A71B01B9D27A8006F8FC0 /* Tiger.swift in Sources */,
 				630A71901B9D22D2006F8FC0 /* AppDelegate.swift in Sources */,
+				1CB323611BB32E76000D918A /* LionCub.swift in Sources */,
 				6324F1491BA908450061F11B /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +329,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -392,6 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LionsAndTigers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -402,6 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LionsAndTigers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +428,7 @@
 				);
 				INFOPLIST_FILE = LionsAndTigersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionsAndTigers.app/LionsAndTigers";
 			};
@@ -435,6 +444,7 @@
 				);
 				INFOPLIST_FILE = LionsAndTigersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionsAndTigers.app/LionsAndTigers";
 			};
